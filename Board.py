@@ -163,8 +163,8 @@ class Piece:
 		return to_return
 		
 	
-	def move(self,col,row):
-		self.position = (self.col,self.row) = (col,row)
+	def move(self, pos): #col,row):
+		self.position = (self.col,self.row) = pos#(col,row)
 		self.pos = (self.x,self.y) = ((self.col*self.w)+(self.w//2),(self.row*self.h)+(self.h//2))
 	
 	def check_jump(self, pieces, squares):

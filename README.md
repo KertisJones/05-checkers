@@ -1,5 +1,10 @@
 # 05-Checkers
 
+A game of checkers! Red is a player and black is an AI by default, but that can be changed by editing the redAI and blackAI boolean variables within the main function. 
+Player vs Player, Player vs AI, or AI vs AI!
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 Let's play a game of checkers! This is the fifth programming assignment for ILS-Z399. The requirements for this assignment are as follows:
 
 * Write a Python program for playing a game of checkers
